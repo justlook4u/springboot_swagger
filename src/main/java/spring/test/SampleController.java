@@ -19,7 +19,7 @@ public class SampleController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World 2222!";
+        return "Hello World test spring boot!";
     }
 
     public static void main(String[] args) throws Exception {
